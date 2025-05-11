@@ -164,7 +164,7 @@ body::before {
 .imagem-pessoa {
     position: absolute;
     left: 3%;
-    margin-top: 82%;
+    margin-top: 100%;
     width: 300px;
     transform: rotate(-25deg);
     transition: 1s;
@@ -200,6 +200,6 @@ body::after {
     position: absolute;
     display: flex;
     gap: 20px;
-    top: 48%;
+    top: 68%;
 }
 }
