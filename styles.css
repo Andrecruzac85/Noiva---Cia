@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background: #ffffff;
-    color: white;
+    color: rgb(240, 235, 235);
     padding: 20px 160px;
     height: 100vh;
     font-family: "Noto Sans", sans-serif;
@@ -38,7 +38,7 @@ h4 {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 
@@ -76,6 +76,8 @@ p {
 }
 
 .caixa-botoes {
+    position: absolute;
+    top: 10%;
     text-align: center;
     color: #161616;
     z-index: 2;
@@ -110,11 +112,94 @@ p {
 .insta {
     position: absolute;
     margin-left: 0;
-    margin-bottom: 10%;
+    margin-top:65%;
 }
 
 .endereço {
     position: absolute;
     margin-left: 0;
-    margin-bottom: 40%;
+    margin-bottom: 45%;
+    
+}
+@media screen and (max-width: 700px) {
+
+    body {
+         background: #ffffff;
+        color: rgb(17, 1, 1);
+        padding: 20px 160px;
+        height: 100vh;
+        padding: 20px 20px; /* Reduzir padding lateral */
+        height: auto; /* Ajustar altura para conteúdo */
+        overflow-y: auto; /* Permitir rolagem vertical se necessário */
+    }
+
+    body::after {
+        font-size: 150px; /* Diminuir o tamanho do texto de fundo */
+    }
+
+    h1 {
+        font-size: 40px; /* Reduzir tamanho do título principal */
+        text-align: center;
+    }
+
+    h4 {
+        font-size: 20px; /* Reduzir tamanho do subtítulo */
+    }
+
+    p {
+       
+        width: 400px;
+}
+body::before {
+    content: '';
+    background: #202020;
+  position: relative;
+    top: 0;
+    left: -600px;
+    transform: rotate(-70deg);
+    width: 100%;
+    height: 120%;
+
+}
+.imagem-pessoa {
+    position: absolute;
+    left: 5%;
+    margin-top: 82%;
+    width: 300px;
+    transform: rotate(-25deg);
+    transition: 1s;
+   
+}
+.insta {
+    position: absolute;
+    margin-left: 0;
+    bottom: 80%;
+}
+
+.endereço {
+    position: absolute;
+    margin-left: 0;
+  top: 100%;
+}
+body::after {
+    content: 'Noiva & Cia';
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 100px;
+    font-weight: bold;
+    opacity: 0.1;
+
+}
+.caixa-botoes {
+    text-align: center;
+    color: #161616;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+    margin-top: 80%;
+}
 }
