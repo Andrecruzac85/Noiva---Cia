@@ -184,7 +184,7 @@ body::before {
 body::after {
     content: 'Noiva & Cia';
     position: absolute;
-    top: 35%;
+    top:45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
