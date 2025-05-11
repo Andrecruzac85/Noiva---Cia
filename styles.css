@@ -164,7 +164,7 @@ body::before {
 .imagem-pessoa {
     position: absolute;
     left: 3%;
-    margin-top: 92%;
+    margin-top: 100%;
     width: 300px;
     transform: rotate(-25deg);
     transition: 1s;
@@ -184,7 +184,7 @@ body::before {
 body::after {
     content: 'Noiva & Cia';
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -200,6 +200,6 @@ body::after {
     position: absolute;
     display: flex;
     gap: 20px;
-    top: 52%;
+    top: 62%;
 }
 }
