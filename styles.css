@@ -197,9 +197,9 @@ body::after {
     text-align: center;
     color: #161616;
     z-index: 2;
-    position: absolute;
     display: flex;
     gap: 20px;
-    top: 52%;
+    position: absolute;
+    margin-top: 100%;
 }
 }
