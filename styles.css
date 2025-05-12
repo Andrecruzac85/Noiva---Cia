@@ -196,10 +196,8 @@ body::after {
 .caixa-botoes {
     text-align: center;
     color: #161616;
-    z-index: 2;
-    display: flex;
     gap: 20px;
     position: absolute;
-    margin-top: 110%;
+    margin-top: 100%;
 }
 }
