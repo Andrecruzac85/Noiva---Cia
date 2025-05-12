@@ -13,6 +13,6 @@ Este é o meu primeiro projeto freelancer: um site para uma **Loja de Noivas**, 
 <img src="https://github.com/Andrecruzac85/Noiva---Cia/blob/main/assets/noiva%20e%20cia%20desktop%201.png?raw=true"/>
 <img src="https://github.com/Andrecruzac85/Noiva---Cia/blob/main/assets/noiva%20e%20cia%20desktop%202.png?raw=true"/>
 <img src="https://github.com/Andrecruzac85/Noiva---Cia/blob/main/assets/noiva%20e%20cia%20desktop%203.png?raw=true"/>
-<img src=""/>
+<img src="https://github.com/Andrecruzac85/Noiva---Cia/blob/main/assets/noiva%20e%20cia%20cel%201.png?raw=true"/>
 <img src=""/>
 <img src=""/>
