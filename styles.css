@@ -200,6 +200,6 @@ body::after {
     display: flex;
     gap: 20px;
     position: absolute;
-    margin-top: 52vh;
+    margin-top: 110%;
 }
 }
