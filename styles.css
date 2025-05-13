@@ -34,18 +34,26 @@ body::after {
 }
 
 h4 {
+
+    margin-top: 3%;
     font-size: 30px;
+}
+h5{
+    margin-top: -10%;
 }
 
 h1 {
     font-size: 60px;
+   margin-top: 30%;
+    text-align: center;
 }
 
 
 p {
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-top: 5%;
     width: 300px;
+    text-align: center;
 }
 
 .imagem-pessoa {
@@ -76,20 +84,23 @@ p {
 }
 
 .caixa-botoes {
+   
     position: absolute;
-    top: 5%;
+    top: 8%;
     text-align: center;
     color: #161616;
     z-index: 2;
     position: relative;
     display: flex;
     gap: 20px;
-    border-radius: 16px;
+    
 }
 
 .botoes {
+
+    border-radius: 16px;
     margin-top: 5%;
-    width: 100px;
+    width: 105px;
     height: 20px;
     cursor: pointer;
 }
@@ -110,19 +121,13 @@ p {
     background: #ff9eb5;
 }
 
-.insta {
-    position: absolute;
-    margin-left: 0;
-    margin-top: 50%;
-}
-
 .endereço {
-    position: absolute;
+    
     margin-left: 0;
-    margin-bottom: 30%;
+    margin-bottom:1%;
     
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
 
     body {
          background: #ffffff;
@@ -139,12 +144,14 @@ p {
     }
 
     h1 {
+        margin-top: 10%;
         font-size: 40px; 
         text-align: center;
     }
 
     h4 {
-        font-size: 20px; 
+        font-size: 20px;
+        margin-top: 10px; 
     }
 
     p {
@@ -166,7 +173,7 @@ body::before {
 .imagem-pessoa {
     position: absolute;
     left: 3%;
-    margin-top: 95%;
+    margin-top: 105%;
     width: 300px;
     transform: rotate(-25deg);
     transition: 1s;
@@ -174,19 +181,20 @@ body::before {
 }
 .insta {
     position: absolute;
+    margin-top: -50%;
     margin-left: 0;
-    bottom:95%;
+   
 }
 
 .endereço {
     position: absolute;
     margin-left: 0;
-  top: 95%;
+    top: 110%;
 }
 body::after {
     content: 'Noiva & Cia';
     position: absolute;
-    top:50%;
+    top:45%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -201,5 +209,6 @@ body::after {
     gap: 20px;
     position: absolute;
     margin-top: 30%;
+    border-radius: 16px;
 }
 }
