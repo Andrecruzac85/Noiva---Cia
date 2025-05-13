@@ -121,33 +121,34 @@ p {
     margin-bottom: 30%;
     
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
 
     body {
          background: #ffffff;
         color: rgb(17, 1, 1);
         padding: 20px 160px;
         height: 100vh;
-        padding: 20px 20px; /* Reduzir padding lateral */
-        height: auto; /* Ajustar altura para conteúdo */
-        overflow-y: auto; /* Permitir rolagem vertical se necessário */
+        padding: 20px 20px; 
+        height: auto;
+        overflow-y: auto; 
     }
 
     body::after {
-        font-size: 150px; /* Diminuir o tamanho do texto de fundo */
+        font-size: 150px; 
     }
 
     h1 {
-        font-size: 40px; /* Reduzir tamanho do título principal */
+        font-size: 40px; 
         text-align: center;
     }
 
     h4 {
-        font-size: 20px; /* Reduzir tamanho do subtítulo */
+        font-size: 20px; 
     }
 
     p {
-       
+      
+       margin-top: 30%;
         width: 400px;
 }
 body::before {
@@ -173,18 +174,18 @@ body::before {
 .insta {
     position: absolute;
     margin-left: 0;
-    bottom: 80%;
+    bottom:95%;
 }
 
 .endereço {
     position: absolute;
     margin-left: 0;
-  top: 90%;
+  top: 95%;
 }
 body::after {
     content: 'Noiva & Cia';
     position: absolute;
-    top:45%;
+    top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -198,6 +199,6 @@ body::after {
     color: #161616;
     gap: 20px;
     position: absolute;
-    margin-top: 25%;
+    margin-top: 30%;
 }
 }
