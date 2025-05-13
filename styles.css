@@ -158,7 +158,7 @@ p {
 
     p {
       
-       margin-top: 25%;
+       margin-top: 15%;
         width: 400px;
 }
 body::before {
@@ -175,7 +175,7 @@ body::before {
 .imagem-pessoa {
     position: absolute;
     left: 3%;
-    margin-top: 105%;
+    margin-top: 100%;
     width: 300px;
     transform: rotate(-25deg);
     transition: 1s;
@@ -191,7 +191,7 @@ body::before {
 .endereço {
     position: absolute;
     margin-left: 0;
-    top: 110%;
+    top: 100%;
 }
 body::after {
     content: 'Noiva & Cia';
