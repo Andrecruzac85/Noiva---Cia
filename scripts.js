@@ -8,6 +8,6 @@ function mudarVisual(cor, imagem) {
     setTimeout(() => {
         pessoa.src = imagem
         pessoa.classList.remove("troca-efeito")
-    }, 500);
+    }, 0.5);
 
 }
