@@ -62,7 +62,7 @@ p {
     width: 600px;
     transform: rotate(-25deg);
     filter: drop-shadow(30px 45px 40px #161616);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .troca-efeito {
