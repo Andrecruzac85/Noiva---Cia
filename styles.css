@@ -191,7 +191,7 @@ body::before {
 .endereço {
     position: absolute;
     margin-left: 0;
-    top: 100%;
+    top: 105%;
 }
 body::after {
     content: 'Noiva & Cia';
