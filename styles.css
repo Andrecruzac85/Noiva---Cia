@@ -84,6 +84,7 @@ p {
     position: relative;
     display: flex;
     gap: 20px;
+    border-radius: 16px;
 }
 
 .botoes {
