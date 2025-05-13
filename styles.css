@@ -148,7 +148,7 @@ p {
 
     p {
       
-       margin-top: 30%;
+       margin-top: 25%;
         width: 400px;
 }
 body::before {
@@ -165,7 +165,7 @@ body::before {
 .imagem-pessoa {
     position: absolute;
     left: 3%;
-    margin-top: 90%;
+    margin-top: 95%;
     width: 300px;
     transform: rotate(-25deg);
     transition: 1s;
